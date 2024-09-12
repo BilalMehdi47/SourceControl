@@ -11,6 +11,7 @@
 		FAB259A02C91AC130085853E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2599F2C91AC130085853E /* ContentView.swift */; };
 		FAB259A22C91AC160085853E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB259A12C91AC160085853E /* Assets.xcassets */; };
 		FAB259A52C91AC160085853E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB259A42C91AC160085853E /* Preview Assets.xcassets */; };
+		FAB259AC2C92C6970085853E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB259AB2C92C6970085853E /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		FAB2599F2C91AC130085853E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FAB259A12C91AC160085853E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB259A42C91AC160085853E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAB259AB2C92C6970085853E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				FAB2599D2C91AC130085853E /* SourceControlApp.swift */,
 				FAB2599F2C91AC130085853E /* ContentView.swift */,
+				FAB259AB2C92C6970085853E /* HomeView.swift */,
 				FAB259A12C91AC160085853E /* Assets.xcassets */,
 				FAB259A32C91AC160085853E /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB259AC2C92C6970085853E /* HomeView.swift in Sources */,
 				FAB259A02C91AC130085853E /* ContentView.swift in Sources */,
 				FAB2599E2C91AC130085853E /* SourceControlApp.swift in Sources */,
 			);
