@@ -9,18 +9,21 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("New Screen")
+        VStack{
+            Text("New Screen")
+                .font(.title)
+            
+            
+            Button("click me ") {
+                print("Clicked")
+            }
             .font(.title)
-        
-        
-        Button("click me ") {
-            print("Clicked")
+            .foregroundColor(.green)
+            
+            Circle()
+                .foregroundColor(.blue)
+                .frame(width: 150, height: 100)
         }
-        .font(.title)
-        .foregroundColor(.green)
-        
-        Circle()
-            .foregroundColor(.blue)
     }
 }
 
