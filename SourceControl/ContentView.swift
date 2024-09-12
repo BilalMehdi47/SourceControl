@@ -16,8 +16,21 @@ struct ContentView: View {
                 .foregroundStyle(.green)
             Text("Hello!")
             
-            Button("Subscribe") {
+            HStack {
+                Button("Subscribe") {
+                    
+                }
+                Button(action: {
+                    
+                    // Add your button action here
+                }) {
+                    Image(systemName: "bell.fill")
+                        .resizable() // Makes the image resizable
+                        .frame(width: 15, height: 15) // You can adjust the size of the image
+                        .foregroundColor(.blue) // Optional: Set the image color
+                }
                 
+               
             }
         }
         .padding()
