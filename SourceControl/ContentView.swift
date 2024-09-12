@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var title: String = "Press the bell icon and subscribe"
     var body: some View {
         VStack {
             Image(systemName: "heart.fill")
@@ -15,6 +17,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.green)
             Text("Hello!")
+            Text(title)
             
             HStack {
                 Button("Subscribe") {
