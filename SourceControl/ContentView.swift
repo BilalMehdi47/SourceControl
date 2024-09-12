@@ -18,6 +18,7 @@ struct ContentView: View {
                 .foregroundStyle(.green)
             Text("Hello!")
             Text(title)
+                .font(.caption)
             
             HStack {
                 Button("Subscribe") {
@@ -32,8 +33,6 @@ struct ContentView: View {
                         .frame(width: 15, height: 15) // You can adjust the size of the image
                         .foregroundColor(.blue) // Optional: Set the image color
                 }
-                
-               
             }
         }
         .padding()
