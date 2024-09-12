@@ -18,6 +18,9 @@ struct HomeView: View {
         }
         .font(.title)
         .foregroundColor(.green)
+        
+        Circle()
+            .foregroundColor(.blue)
     }
 }
 
