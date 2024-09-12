@@ -10,13 +10,14 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         Text("New Screen")
+            .font(.title)
         
         
         Button("click me ") {
-            
+            print("Clicked")
         }
-        .font(.subheadline)
-        .background(.green)
+        .font(.title)
+        .foregroundColor(.green)
     }
 }
 
