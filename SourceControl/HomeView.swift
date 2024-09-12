@@ -10,14 +10,14 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         VStack{
-            Text("New Screen")
+            Text("Screen 2")
                 .font(.title)
             
             
-            Button("click me ") {
+            Button("Click me ") {
                 print("Clicked")
             }
-            .font(.title)
+            
             .foregroundColor(.green)
             
             Circle()
