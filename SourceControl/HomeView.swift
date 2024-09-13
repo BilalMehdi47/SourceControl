@@ -14,6 +14,7 @@ struct HomeView: View {
                 .font(.title)
             
             HStack {
+                Text("Subscribe")
                 Text("Like ")
                     .foregroundStyle(.blue)
                 
