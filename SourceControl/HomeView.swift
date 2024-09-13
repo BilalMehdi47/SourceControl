@@ -11,23 +11,18 @@ struct HomeView: View {
     var body: some View {
         VStack{
             Text("Screen 2")
-                .font(.title)
+                .font(.largeTitle)
             
             
-            Button("Click me ") {
+            Button("Like ") {
                 print("Clicked")
             }
             
-            .foregroundColor(.green)
-            
-            Circle()
-                .foregroundColor(.blue)
-                .frame(width: 150, height: 100)
+            .foregroundColor(.blue)
+            .font(.title)
+
         }
-        .onAppear() {
-            // send analutics
-            print("Analytics Report")
-        }
+
     }
 }
 
