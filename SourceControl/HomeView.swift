@@ -24,6 +24,10 @@ struct HomeView: View {
                 .foregroundColor(.blue)
                 .frame(width: 150, height: 100)
         }
+        .onAppear() {
+            // send analutics
+            print("Analytics Report")
+        }
     }
 }
 
