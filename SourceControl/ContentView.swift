@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var title: String = "Press the bell icon and subscribe"
+    @State private var title: String = "Hit bell icon and subscribe"
     var body: some View {
         ScrollView() {
             LazyVStack() {
@@ -19,7 +19,7 @@ struct ContentView: View {
                             .font(.largeTitle)
                             .imageScale(.large)
                             .foregroundStyle(.blue)
-                        Text("Hello!")
+                        Text("Knoichiwa!")
                         Text(title)
                             .font(.caption)
                         
