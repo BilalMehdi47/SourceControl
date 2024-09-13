@@ -15,24 +15,33 @@ struct ContentView: View {
             LazyVStack() {
                 VStack{
                     ForEach(0..<20) { _ in
-                        Image(systemName: "magnifyingglass")
+                        Image(systemName: "globe")
                             .font(.largeTitle)
                             .imageScale(.large)
                             .foregroundStyle(.blue)
-                        Text("Knoichiwa!")
+                        Text("anyong!")
                         Text(title)
                             .font(.caption)
                         
                         HStack {
-                            Button("Subscribe")
-                            {
-                                print("Subscription added")
-                            }
+                            Text("Subscribe")
+                            
                             Button(action: {
                                 
                                 // Add your button action here
                             }) {
-                                Image(systemName: "bell.fill")
+                                Image(systemName: "bell")
+                                    .resizable() // Makes the image resizable
+                                    .frame(width: 13, height: 13) // You can adjust the size of the image
+                                    .foregroundColor(.blue) // Optional: Set the image color
+                            }
+                            Text("Like")
+                                .foregroundStyle(.blue)
+                            Button(action: {
+                                
+                            }) {
+                                
+                                Image(systemName: "heart.fill")
                                     .resizable() // Makes the image resizable
                                     .frame(width: 13, height: 13) // You can adjust the size of the image
                                     .foregroundColor(.blue) // Optional: Set the image color
