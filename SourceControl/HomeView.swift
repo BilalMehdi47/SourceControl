@@ -14,18 +14,16 @@ struct HomeView: View {
                 .font(.title)
             
             HStack {
-                Button("Like ") {
-                    print("Clicked")
-                }
-                .foregroundColor(.blue)
-                
+                Text("Like ")
+                    .foregroundStyle(.blue)
                 
                 Button(action:  {
                     
                 }) {
-                    Image(systemName: "heart.fill")
-                        .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-                    
+                    Image(systemName: "heart")
+                        .resizable() // Makes the image resizable
+                        .frame(width: 13, height: 13) // You can adjust the size of the image
+                        .foregroundColor(.blue) // Optional: Set the image color
                 }
             }
         }
