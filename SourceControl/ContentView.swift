@@ -15,11 +15,11 @@ struct ContentView: View {
             LazyVStack() {
                 VStack{
                     ForEach(0..<20) { _ in
-                        Image(systemName: "magnifyingglass")
+                        Image(systemName: "globe")
                             .font(.largeTitle)
                             .imageScale(.large)
                             .foregroundStyle(.blue)
-                        Text("Knoichiwa!")
+                        Text("anyong!")
                         Text(title)
                             .font(.caption)
                         
