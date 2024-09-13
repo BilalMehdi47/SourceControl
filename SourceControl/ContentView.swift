@@ -12,7 +12,7 @@ struct ContentView: View {
     @State private var title: String = "Press the bell icon and subscribe"
     var body: some View {
         VStack {
-            Image(systemName: "bolt.fill")
+            Image(systemName: "globe")
                 .font(.largeTitle)
                 .imageScale(.large)
                 .foregroundStyle(.blue)
@@ -25,6 +25,7 @@ struct ContentView: View {
                 {
                     print("Subscription added")
                 }
+                .foregroundColor(.red)
                 Button(action: {
                     
                     // Add your button action here
