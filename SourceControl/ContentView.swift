@@ -12,10 +12,10 @@ struct ContentView: View {
     @State private var title: String = "Press the bell icon and subscribe"
     var body: some View {
         VStack {
-            Image(systemName: "heart.fill")
+            Image(systemName: "house.fill")
                 .font(.largeTitle)
                 .imageScale(.large)
-                .foregroundStyle(.green)
+                .foregroundStyle(.blue)
             Text("Hello!")
             Text(title)
                 .font(.caption)
