@@ -15,7 +15,7 @@ struct ContentView: View {
             Image(systemName: "bolt.fill")
                 .font(.largeTitle)
                 .imageScale(.large)
-                .foregroundStyle(.tint)
+                .foregroundStyle(.blue)
             Text("Hello!")
             Text(title)
                 .font(.caption)
