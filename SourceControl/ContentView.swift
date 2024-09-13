@@ -21,8 +21,9 @@ struct ContentView: View {
                 .font(.caption)
             
             HStack {
-                Button("Subscribe") {
-                    
+                Button("Subscribe")
+                {
+                    print("Subscription added")
                 }
                 Button(action: {
                     
@@ -30,7 +31,7 @@ struct ContentView: View {
                 }) {
                     Image(systemName: "bell.fill")
                         .resizable() // Makes the image resizable
-                        .frame(width: 15, height: 15) // You can adjust the size of the image
+                        .frame(width: 13, height: 13) // You can adjust the size of the image
                         .foregroundColor(.blue) // Optional: Set the image color
                 }
             }
