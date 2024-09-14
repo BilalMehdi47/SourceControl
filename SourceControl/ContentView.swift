@@ -50,7 +50,8 @@ struct ContentView: View {
             LazyVStack() {
                 VStack{
                     ForEach(0..<20) { _ in
-                        Image(systemName: "globe")
+                        Image(systemName: "play.rectangle.fill")
+                       //     .frame(width: 200, height: 100 )
                             .font(.largeTitle)
                             .imageScale(.large)
                             .foregroundStyle(.blue)
