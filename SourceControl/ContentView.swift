@@ -55,7 +55,7 @@ struct ContentView: View {
                             .font(.largeTitle)
                             .imageScale(.large)
                             .foregroundStyle(.blue)
-                        Text("anyong!")
+                        Text("Hello!")
                         Text(title)
                             .font(.caption)
                         
