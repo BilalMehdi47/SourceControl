@@ -15,6 +15,8 @@ struct HomeView: View {
             
             HStack {
                 Text("Subscribe")
+                    .foregroundStyle(.gray)
+
                 Text("Like ")
                     .foregroundStyle(.blue)
                 
